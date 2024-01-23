@@ -10,6 +10,14 @@ var change_speed = 750;
 var release_times, times;
 var w_w, w_h, re_resize_timer;
 
+var startY, endY;
+$(document).on("touchstart", function(e){
+  startY = e.originalEvent.changedTouches[0].screenY;
+});
+$(document).on("touchend", function(e){
+  endY = e.originalEvent.changedTouches[0].screenY;
+})
+
 function moving_sections(gnbindex,length){ 
   $(".quick li").removeClass("on").eq(gnbindex).addClass("on");
   $("#fullpage").stop().animate({"top": -length + "px"}, change_speed, "easeInOutQuint");
@@ -62,7 +70,7 @@ function fullset(){
         return false;
       }
 
-      if (event.wheelDelta > 0 || event.detail < 0) {
+      if (event.wheelDelta > 0 || event.detail < 0 || startY < endY) {
         var before = page.index();
         var pagelength=0;
         for(var i=1; i<(before); i++){
@@ -93,7 +101,8 @@ function fullset(){
   }
 
   window.addEventListener("mousewheel", moving_page, {passive: false});
-  window.addEventListener("DOMMouseScroll", moving_page, {passive: false});    
+  window.addEventListener("DOMMouseScroll", moving_page, {passive: false});   
+  window.addEventListener("touchend", moving_page, {passive: false});  
 
   $(window).resize(function(){ 
     var resizeindex = $(".quick ul li.on").index()+1;
