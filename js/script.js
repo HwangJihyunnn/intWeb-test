@@ -71,7 +71,7 @@ $(window).resize(function(){
 // About us - 기업연혁
 
 const HistoryData = (year, listClass) => { //해당 연도와 리스트를 인자로 받음
-  fetch(`/js/HistoryList/history${year}.json`) //해당 연도의 json 파일을 가져오기
+  fetch(`../js/HistoryList/history${year}.json`) //해당 연도의 json 파일을 가져오기
     .then((response) => response.json()) //json데이터로 변환
     .then((json) => {
       const data = json[`item${year}`]; //해당 연도의 데이터 배열
