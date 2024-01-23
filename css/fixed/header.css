@@ -41,8 +41,8 @@ body.light-mode #header .open-btn span { color: #111; }
 body.light-mode #header:hover .open-btn span { color: #fefefe; }
 
 /*responsive*/
-@media screen and (min-width: 1000px) and (max-width: 1519px) {
-  #wrap{max-width: 1519px;}
+@media screen and (min-width: 1001px) and (max-width: 1520px) {
+  #wrap{max-width: 1520px;}
   
   #header .logo { left: 5%; }
   #header ul.nav { right: 5%; }
@@ -51,7 +51,7 @@ body.light-mode #header:hover .open-btn span { color: #fefefe; }
     
 }
     
-@media screen and (min-width: 0px) and (max-width: 999px) {
+@media screen and (min-width: 0px) and (max-width: 1000px) {
   #wrap{max-width: 1000px;}
 
   #header ul.nav .main-menu a { font-size: 16px; }

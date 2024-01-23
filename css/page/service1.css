@@ -83,7 +83,7 @@ button {margin: 50px 0; font-size: 16px; font-family: 'Noto Sans KR';}
   .content {padding: 50px 0; flex-direction: column;}
   .content > h4 {font-size: 14px;}
   .content .web-font{ font-size: 20px; padding:0 0; text-align: center;}
-  .step-box > .main-step {grid-template-columns: repeat(2,45%); gap: 50px;}
+  .step-box > .main-step {grid-template-columns: repeat(1,1fr); gap: 50px;}
   .content .web-font {font-size: 20px;}
   .content > .title-text {padding: 50px 0; font-size: 16px; text-align:justify; line-height: 2; font-weight: 400;}
   .service > ul > li > .text {font-size: 16px;}

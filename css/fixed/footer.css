@@ -50,12 +50,12 @@ footer {max-width: 100vw; height: 120px; background: #111; color: #fff; display:
   footer {max-width: 1000px;}
   .ft-left {padding-left: 20px;}
   .ft-logo {display: none;}
-  .goog-te-gadget {margin-top: 30px;}
+  .goog-te-gadget {margin-top: 5px;}
   .ft-menu {font-size: 16px;}
   .ft-info > address p > span{padding: 0 10px 0 0; font-size: 12px;}
   .ft-info > address p > span:nth-child(2)::after { display: none;}
   .ft-info > address p > span::after {right: 3px;}
-  .ft-right > .copy > p{text-align: right; white-space: nowrap;}
+  .ft-right > .copy > p{text-align: right;}
 }
 @media screen and (min-width: 0) and (max-width: 720px) {
   footer {max-width: 720px; align-items: center;}

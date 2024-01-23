@@ -81,7 +81,7 @@ const HistoryData = (year, listClass) => { //해당 연도와 리스트를 인�
       // 각 데이터 아이템에 대해 반복
     data.forEach((element) => {
       // console.log(element); //콘솔에 데이터 출력
-      html += `<li class="list"><span class="month-box">${element.month}</span> ${element.text}</li>`; // html 문자열에 각 아이템 추가
+      html += `<li class="list"><span class="month-box">${element.month}</span><p class="text">${element.text}</p></li>`; // html 문자열에 각 아이템 추가
       });
 
       // 리스트클래스에 해당하는 요소에 html 문자열 삽입
