@@ -53,10 +53,10 @@ ul.v-con.six-con > li.cells { width: calc(16.666% - 40px); }
 body.light-mode .quick li { background-color: #111; }
 .quick .on { width: 50px; }
 
-@keyframes light {
+/* @keyframes light {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}
+} */
 @keyframes cursor{ 
   0%{border-right: 2px solid #fff; } 
   50%{border-right: 2px solid rgba(1, 1, 1, 0); } 
