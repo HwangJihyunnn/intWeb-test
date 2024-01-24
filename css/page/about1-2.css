@@ -16,11 +16,13 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 .content.inner, .alert-box.inner {width: 79.2%; height: 100%; margin: 0 auto;}
 .content > .int-box, .com-box {padding: 160px 0; width: 100%; height:auto;}
 .content .web-font { font-size: 40px; font-weight: 700; font-family: 'Noto Sans KR'; padding-bottom: 50px; }
-.title-font {font-size: 28px; padding-bottom: 160px;}
+.title-font {font-size: 28px; padding-bottom: 20px;}
 /* 로고 박스 */
 .logo-box {display: flex; width: 100%; height: 500px;}
-.big-logo {padding-right:50px; display: flex; justify-content: center; align-items: center;}
-.big-logo > img {width: 450px;}
+.big-logo {width: 500px; padding-right:50px; display: flex; justify-content: center; align-items: center;}
+.big-logo > img {max-width: 100%;}
+.small-logo > img {max-width: 100%;}
+.int {padding-top: 160px;}
 .int .small-logo, .com .small-logo  {width: 100%; height: 100%; background: #DBE1F0; border-radius: 60px;  padding: 50px; display: grid; place-items: center;}
 .int .small-logo {grid-template-columns: repeat(2, 1fr);}
 .com .small-logo {grid-template-columns: repeat(3, 1fr); gap: 30px;}
@@ -77,11 +79,14 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   .content {padding: 0 0;}
   .title-font {font-size: 16px; padding: 50px 0;}
   .content .web-font { font-size: 20px; padding-bottom: 0; padding-top: 50px;}
-  .logo-box {display: flex; height: 100%; flex-direction: column;}
-  .big-logo {display: none;}
-  .int .small-logo, .com .small-logo {border-radius: 20px; padding: 20px;}
+  .logo-box {display: flex; height: 100%; flex-direction: column; }
+  .logo-box > a {display: flex; justify-content: center; align-items: center;}
+  .big-logo {display: block; max-width: 100%; padding-right: 0;}
+  .int {padding-top: 50px;}
+  .int-box > p {text-align: left; font-size: 14px; line-height: 2;}
+  .int .small-logo, .com .small-logo {display: none;}
   .content > .int-box {padding-bottom: 50px; padding: 0 0;}
-  .content > .con-box {margin: 50px 0; padding: 0 0;}
+  .content > .con-box {margin: 0 0; padding: 0 0;}
   .content > .btn {padding-top: 0;}
   button.black {display: flex; justify-content: center; align-items: center;}
   .black {margin: 50px 0; }
@@ -89,4 +94,5 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   .alert {padding: 50px 0;}
   .alert-box > ul > li {font-size: 14px;}
   .alert-box > h4 {font-size: 16px;}
+  .arrow-btn {display: flex; justify-content: center; gap: 20px;}
 }
