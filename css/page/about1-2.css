@@ -22,6 +22,7 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 .big-logo {width: 500px; padding-right:50px; display: flex; justify-content: center; align-items: center;}
 .big-logo > img {max-width: 100%;}
 .small-logo > img {max-width: 100%;}
+.com, .int {background: #DBE1F0; padding: 20px; border-radius: 20px;}
 .int {padding-top: 160px;}
 .int .small-logo, .com .small-logo  {width: 100%; height: 100%; background: #DBE1F0; border-radius: 60px;  padding: 50px; display: grid; place-items: center;}
 .int .small-logo {grid-template-columns: repeat(2, 1fr);}
@@ -83,7 +84,7 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   .logo-box > a {display: flex; justify-content: center; align-items: center;}
   .big-logo {display: block; max-width: 100%; padding-right: 0;}
   .int {padding-top: 50px;}
-  .int-box > p {text-align: left; font-size: 14px; line-height: 2;}
+  .int-box > p {text-align: left; font-size: 14px; line-height: 2; padding-bottom: 50px;}
   .int .small-logo, .com .small-logo {display: none;}
   .content > .int-box {padding-bottom: 50px; padding: 0 0;}
   .content > .con-box {margin: 0 0; padding: 0 0;}
