@@ -6,6 +6,14 @@
 body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; color: #333; font-size: 16px;}
 #wrap {max-width: 2560px; height: calc(100% - 120px);}
 .inner {width: 79.2%; height: 100%; margin: 0 auto;}
+
+.preload {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
 /* header - banner */
 #banner {position: relative; width: 100%; height: 540px; overflow: hidden; background: url(../../img/about/banner-img2.png)no-repeat center/cover;}
 #banner > img {max-width: 100%; height: auto;}
@@ -21,7 +29,7 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 .history > .year > #list-line > li {position: relative; width: 100%; text-overflow:ellipsis; }
 .history > .year > #list-line > li::after {content: ''; position: absolute; top: 20px; left: 3px; width: 2px; height: 100%; background: #879BCD;}
 .history > .year > #list-line > li:last-child:after {width: 0; height: 0;}
-.history > .year > #list-line > li > .text {display: inline-block; width: 80%; padding-left:10px;}
+.history > .year > #list-line > li > .text {display: inline-block; padding-left:10px; line-height: 2.5; font-size: 16px;}
 .year {display: flex; }
 .year >  .list4, .list3, .list2, .list1 {font-size: 20px;}
 .year > .his-2024, .his-2023,.his-2022,.his-2021 {font-size: 20px; width: 215px; height: auto; border-radius: 20px; opacity: 0.6; }
@@ -30,7 +38,7 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 .year > .his-2022 {background: url(../../img/about/3.webp)no-repeat center/cover; overflow: hidden;}
 .year > .his-2021 {background: url(../../img/about/4.webp)no-repeat center/cover; overflow: hidden;}
 .year .date {padding: 0 38px; font-size: 40px; font-weight: 700; color:#012B7F;}
-.month-box {display: inline-block; width: 40px; height: 40px; background: #EFF2FA; border-radius: 10px;font-weight: bold; color: #012B7F; font-size: 20px; text-align: center; margin: 0 32px 19px 0; line-height: 2;}
+.month-box {display: inline-block; width: 55px; height: 55px; background: #EFF2FA; border-radius: 10px;font-weight: 500; color: #012B7F; font-size: 20px; text-align: center; margin: 0 32px 19px 0; line-height: 2.5;}
 .list::marker {color: #879BCD; line-height: 2;}
 .ft-logo {width: 80px;}
 
@@ -62,7 +70,7 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
   .year > .his-2021 {display: none;}
   .list {font-size: 16px;}
   .year .date {font-size: 30px; padding: 0 0;}
-  .month-box {font-size: 16px;  width: 30px; height: 30px; margin: 0px 10px 10px 0;}
+  .month-box {font-size: 16px;  width: 40px; height: 40px; margin: 0px 10px 10px 0;}
 }
 @media screen and (min-width: 0) and (max-width: 720px) {
   #wrap{max-width: 720px;}
@@ -81,8 +89,8 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
   .year > .his-2022 {display: none;}
   .year > .his-2021 {display: none;}
   .list {font-size: 14px; list-style: none;}
-  .history > .year > #list-line > li > .text {font-size: 14px;}
+  .history > .year > #list-line > li > .text {font-size: 14px; width: 80%;}
   .history > .year > #list-line > li::after {display: none; }
   .year .date {font-size: 20px; padding: 0 0;}
-  .month-box {font-size: 14px;  width: 26px; height: 26px;  margin: 0px 10px 10px 0;}
+  .month-box {font-size: 14px;  width: 40px; height: 40px;  margin: 0px 10px 10px 0;}
 }

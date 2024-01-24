@@ -271,5 +271,23 @@
       });
     });
   </script>
+  <!-- 모바일 헤더 - 안먹혀서 강제로 html안에 넣음  -->
+  <script>
+    // 모바일 header - jQuery
+    var w_w, w_h, re_resize_timer;
+    function resize(){
+      clearTimeout(re_resize_timer);
+      re_resize_timer = setTimeout(function(){ 
+          w_w = $(window).width();
+          w_h = $(window).height();
+          if(w_w < 1000){
+              $("#header .gnb, #header .open-bg.open").height(w_h);
+          }else{
+              $("#header .gnb").attr("style","");
+              $("html").removeClass("open-menu");
+          }
+      }, 100);
+    }
+  </script>
 </body>
 </html>
