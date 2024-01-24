@@ -62,7 +62,7 @@ body.light-mode #header:hover .open-btn span { color: #fefefe; }
   #header:hover ul.nav .main-menu .nav-sub { opacity: 0; display: none; }
   #header .logo { left: 5%; }
   #header .logo img { height: 70px; }
-  #header .open-btn { opacity: 1; z-index: 1; }
+  #header .open-btn { opacity: 1; z-index: 998; }
   html.open-menu #header .open-btn { right: calc(5% + 220px); }
   html.open-menu #header .open-btn span:first-child { display: none; }
   html.open-menu #header .open-btn span:last-child { display: block; }
