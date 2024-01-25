@@ -9,7 +9,7 @@ button.black { background: rgba(244, 244, 244, 0); border: 2px solid #111; color
 button.black:hover { background: rgba(244, 244, 244, .2); }
 button.eng p { font-family: 'Mulish'; }
 /*responsive*/
-@media screen and (min-width: 430px) and (max-width: 720px) {
+@media screen and (min-width: 0px) and (max-width: 720px) {
   #wrap{max-width: 1000px;}
   button { width: 200px; height: 40px; border-radius: 10px; }
   button p { font-size: 16px; }

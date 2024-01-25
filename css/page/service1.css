@@ -85,7 +85,7 @@ button {margin: 50px 0; font-size: 16px; font-family: 'Noto Sans KR';}
   .content .web-font{ font-size: 20px; padding:0 0; text-align: center;}
   .step-box > .main-step {grid-template-columns: repeat(1,1fr); gap: 50px;}
   .content .web-font {font-size: 20px;}
-  .content > .title-text {padding: 50px 0; font-size: 16px; text-align:justify; line-height: 2; font-weight: 400;}
+  .content > .title-text {padding: 50px 0; font-size: 16px; line-height: 2; font-weight: 400;}
   .service > ul > li > .text {font-size: 16px;}
   .service > ul > li {width: 100%; height: 80px;}
   .service > ul > .left1, .left2, .left3 { margin-bottom: 50px;}
@@ -95,8 +95,12 @@ button {margin: 50px 0; font-size: 16px; font-family: 'Noto Sans KR';}
   .step-box .step.last {padding-top: 50px;}
   .step-box > .main-step {padding-top: 0;}
   .step-box > .main-step li {height: 300px; font-size: 16px;}
-  .sub-step > li:nth-child(3) {font-size: 14px;}
+
+  .sub-step > li:nth-child(3) {font-size: 14px; display: none; opacity: 0;}
+  .main-step li:hover .step-hover {display: block; opacity: 0;}
+
   .view-btn {padding-bottom: 50px;}
   button {font-size: 14px;}
   #company {font-size: 25px;}
 }
+

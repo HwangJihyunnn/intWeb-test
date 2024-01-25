@@ -15,15 +15,16 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 .content {width: 100%; height:100%; padding: 160px 0;}
 .content.inner, .alert-box.inner {width: 79.2%; height: 100%; margin: 0 auto;}
 .content > .int-box, .com-box {padding: 160px 0; width: 100%; height:auto;}
-.content .web-font { font-size: 40px; font-weight: 700; font-family: 'Noto Sans KR'; padding-bottom: 50px; }
+.content .web-font { font-size: 40px; font-weight: 700; font-family: 'Noto Sans KR';}
 .title-font {font-size: 28px; padding-bottom: 20px;}
 /* 로고 박스 */
 .logo-box {display: flex; width: 100%; height: 500px;}
 .big-logo {width: 500px; padding-right:50px; display: flex; justify-content: center; align-items: center;}
 .big-logo > img {max-width: 100%;}
 .small-logo > img {max-width: 100%;}
-.com, .int {background: #DBE1F0; padding: 20px; border-radius: 20px;}
+
 .int {padding-top: 160px;}
+.int-box > p {line-height: 2; font-size: 20px;}
 .int .small-logo, .com .small-logo  {width: 100%; height: 100%; background: #DBE1F0; border-radius: 60px;  padding: 50px; display: grid; place-items: center;}
 .int .small-logo {grid-template-columns: repeat(2, 1fr);}
 .com .small-logo {grid-template-columns: repeat(3, 1fr); gap: 30px;}
@@ -83,6 +84,7 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   .logo-box {display: flex; height: 100%; flex-direction: column; }
   .logo-box > a {display: flex; justify-content: center; align-items: center;}
   .big-logo {display: block; max-width: 100%; padding-right: 0;}
+  .com, .int {background: #DBE1F0; padding: 20px; border-radius: 20px;}
   .int {padding-top: 50px;}
   .int-box > p {text-align: left; font-size: 14px; line-height: 2; padding-bottom: 50px;}
   .int .small-logo, .com .small-logo {display: none;}
