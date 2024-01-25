@@ -137,6 +137,15 @@ function resize(){
     }else{
       $("html, body").css("transform", "translate(-50%, -50.00%)");
     }
+    // if(w_w % 2 == 1){
+    //   $("html").css("transform", "translate(-50.05%, -50%)");
+    //   $("body").css("transform", "translate(-50.04%, -50%)");
+    //   $("html, body").css("left", "50.05%");
+    //   $(".full-inner").css({"transform":"translate(-50%, -50.05%)", "height":"calc(79% + 8.25px)", "top":"50.05%", "left":"50.01%"});
+    // }else{
+    //   $("html, body").css({"transform":"translate(-50%, -50%)", "left":"50%"});
+    //   $(".full-inner").css({"transform":"translate(-50%, -50%)", "height":"80%", "top":"50%", "left":"50%"});
+    // }
   }, 100);
 }
 

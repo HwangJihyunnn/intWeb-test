@@ -199,7 +199,7 @@ body.light-mode .quick li { background-color: #111; }
 #service.hide .full-inner .v-con li.cells { margin-top: 10px; opacity: 0; }
 /*scroll-animation-end*/
 
-#contact { background: url(../../img/main/bg-contact.jpg) 50% 50% no-repeat; background-size: cover; }
+#contact { background: url(../../img/main/bg-contact.jpg) 90% 50% no-repeat; background-size: cover; }
 #contact .full-inner .title-con { margin-top: 70px; }
 #contact .full-inner .v-con li.cells > * { margin-bottom: 40px; }
 #contact .full-inner .v-con li.cells:after { content: ''; position:absolute; top: 0; right: -20px; width: 2px; height: 372px; background-color: #111; }
