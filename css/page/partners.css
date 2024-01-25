@@ -111,6 +111,7 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
   .par-inner {background: none;}
   .par-inner > p {font-size: 16px;}
   .par-inner > .mini-text > span {font-size: 14px;}
+  .text-hover {display: none;}
   .text-hover p{font-size: 14px;}
   .client {padding: 50px 0;}
   .cli-big {grid-template-columns: repeat(2, 1fr); gap: 20px; padding-bottom: 20px;}
