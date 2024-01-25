@@ -97,4 +97,5 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
   .view-btn { bottom: 5px;}
   button {font-size: 12px;}
   #company {font-size: 25px;}
+  .material-symbols-outlined {font-size: 17px;}
 }
