@@ -189,7 +189,7 @@ body.light-mode .quick li { background-color: #111; }
 #service img:first-child { top: -312px; left: -201px; transform: rotate(-3deg); opacity: 1; transition: all 250ms ease-out; }
 #service img:nth-child(2) { top: -89px; right: -211px; transform: rotate(7deg); opacity: 1; transition: all 250ms ease-out; }
 #service .full-inner .title-con { margin-top: 100px; text-shadow: 0 0 10px rgba(244, 244, 244, .3); opacity: 1; transition: all 250ms ease-out; }
-#service .full-inner .v-con li.cells { text-align: center; background-color: rgba(135, 155, 205, .1); border-radius: 20px; padding: 40px 0; margin-top: 0; opacity: 1; transition: all 250ms ease-out; backdrop-filter: blur(10px);-webkit-backdrop-filter: blur(10px);}
+#service .full-inner .v-con li.cells { text-align: center; background-color: rgba(135, 155, 205, .1); border-radius: 20px; padding: 40px 0; margin-top: 0; opacity: 1; transition: all 250ms ease-out;}
 #service .full-inner .v-con li.cells span { font-size: 60px; color: #5C78CB; }
 #service .full-inner .v-con li.cells h4 { margin-top: 40px; }
 /*scroll-animation*/

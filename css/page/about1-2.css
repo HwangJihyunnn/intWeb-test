@@ -86,7 +86,7 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   .big-logo {display: block; max-width: 100%; padding-right: 0;}
   .com, .int {background: #DBE1F0; padding: 20px; border-radius: 20px;}
   .int {padding-top: 50px;}
-  .int-box > p {text-align: left; font-size: 14px; line-height: 2; padding-bottom: 50px;}
+  .int-box > p {text-align: left; font-size: 14px; line-height: 2; padding-bottom: 50px; word-break: normal;}
   .int .small-logo, .com .small-logo {display: none;}
   .content > .int-box {padding-bottom: 50px; padding: 0 0;}
   .content > .con-box {margin: 0 0; padding: 0 0;}

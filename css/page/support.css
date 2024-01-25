@@ -87,7 +87,7 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
   .support .sup-box {padding: 50px 0;}
   .support .sup-box li {width: 100%; height: 300px; display: flex; flex-direction: column; justify-content:center;  margin-bottom: 50px;}
   .support .sup-box li > div {padding-bottom: 5px;}
-  .support .sup-box li > div > a {font-size: 14px;}
+  .support .sup-box li > div > a {font-size: 14px; font-weight: bold;}
   .road {flex-direction: column-reverse;}
   .road-add {padding: 30px 20px 10px 20px;margin-top: 50px; }
   .road-list {padding-bottom: 10px; font-size: 14px;}
