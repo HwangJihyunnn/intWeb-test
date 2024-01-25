@@ -384,7 +384,7 @@ body.light-mode .quick li { background-color: #111; }
   #visual .title-con { margin-top: 150px; margin-bottom: 40px; text-align: left; }
   #visual .title-con h2 { font-size: 40px; }
   #visual .title-con h3 { margin-top: 20px; font-size: 20px; }
-  .scroll-icon { top: 65%;}
+  .scroll-icon { top: 400px;}
 
   #int .full-inner .v-con li.cells { width: calc(50% - 20px); }
   #int .full-inner .v-con li.cells:first-child { width: calc(100% - 20px); height: auto; }
