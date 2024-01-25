@@ -145,7 +145,7 @@ $(function(){
   quickClick();
   resize();
 
-  $("#header .open-btn").click(function(){
+  $("#header .open-btn, #header .open-bg").click(function(){
     if(w_w < 1000){
       resize();
       $("html").toggleClass("open-menu");
