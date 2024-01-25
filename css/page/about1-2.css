@@ -16,11 +16,12 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 .content.inner, .alert-box.inner {width: 79.2%; height: 100%; margin: 0 auto;}
 .content > .int-box, .com-box {padding: 160px 0; width: 100%; height:auto;}
 .content .web-font { font-size: 40px; font-weight: 700; font-family: 'Noto Sans KR';}
-.title-font {font-size: 28px; padding-bottom: 20px;}
+.title-font {font-size: 28px; padding-bottom: 100px;}
+.title-font.too {padding-bottom: 160px;}
 /* 로고 박스 */
-.logo-box {display: flex; width: 100%; height: 500px;}
-.big-logo {width: 500px; padding-right:50px; display: flex; justify-content: center; align-items: center;}
-.big-logo > img {max-width: 100%;}
+.logo-box {display: flex; width: 100%; height: auto; border: 1px solid #ccc; padding: 50px;}
+.big-logo {width: 60%; padding-right:50px; display: flex; justify-content: center; align-items: center;}
+.big-logo > img {max-width: 60%;}
 .small-logo > img {max-width: 100%;}
 
 .int {padding-top: 160px;}
@@ -51,7 +52,7 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
 }
 @media screen and (min-width: 1001px) and (max-width: 1520px){
   #wrap{max-width: 1520px;}
-  .logo-box {display: flex; height: 100%; flex-direction: column;}
+  .logo-box {width: 100%; height: 100%;display: flex; justify-content: center; gap: 40px;}
   .big-logo {margin-bottom: 50px; padding-right: 0;}
   .title-font {padding-bottom: 50px;}
   .content .web-font { padding-bottom: 0; padding-top: 50px;}
@@ -60,19 +61,21 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   #wrap{max-width: 1000px;}
   #banner > h2 {font-size: 30px;}
   .content {padding: 0 0;}
-  .title-font {font-size: 20px; padding-bottom: 50px;}
-  .content .web-font { font-size: 30px; padding-bottom: 0; padding-top: 50px;}
-  .content > .int-box, .com-box, .btn {padding: 50px 0;}
-  .logo-box {display: flex; height: 100%; flex-direction: column;}
-  .big-logo {display: none;}
-  .int .small-logo, .com .small-logo {border-radius: 20px; padding: 20px;}
+  .title-font {font-size: 20px; padding-bottom: 100px;}
+  .title-font.too {padding-bottom: 100px;}
+  .content .web-font { font-size: 30px; padding-bottom: 0; padding-top: 100px;}
+  .content > .int-box, .com-box {padding: 50px 0;}
+  .int {padding-top: 0;}
+  .int-box > p {padding-bottom: 100px; font-size: 16px;}
+  .big-logo {display: none; max-width: 100%; padding-right: 0;}
+  .btn {padding-bottom: 100px; padding-top: 50px;}
   .btn a {width: 100%; font-size: 16px;}
-  button {font-size: 12px;}
-  .black {margin: 50px 0;}
+  .black {margin: 50px 0; font-size: 16px;}
   #company {font-size: 25px;}
   .alert {padding: 50px 0;}
   .alert-box > ul > li {font-size: 16px;}
   .alert-box > h4 {font-size: 20px;}
+  .arrow-btn {display: flex; justify-content: center; gap: 20px;}
 }
 @media screen and (min-width: 0) and (max-width: 720px) {
   #wrap{max-width: 720px;}
@@ -81,10 +84,13 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   .content {padding: 0 0;}
   .title-font {font-size: 16px; padding: 50px 0;}
   .content .web-font { font-size: 20px; padding-bottom: 0; padding-top: 50px;}
-  .logo-box {display: flex; height: 100%; flex-direction: column; }
+  .title-font.too {padding-bottom: 50px;}
+  .logo-box {display: flex; height: 100%; justify-content: center; border: 2px solid #fff; }
   .logo-box > a {display: flex; justify-content: center; align-items: center;}
-  .big-logo {display: block; max-width: 100%; padding-right: 0;}
+  .big-logo {display: block;width: 100%; padding-right: 0;}
+  .big-logo > img {max-width: 100%;}
   .com, .int {background: #DBE1F0; padding: 20px; border-radius: 20px;}
+  .com-box {padding-top: 0;}
   .int {padding-top: 50px;}
   .int-box > p {text-align: left; font-size: 14px; line-height: 2; padding-bottom: 50px; word-break: normal;}
   .int .small-logo, .com .small-logo {display: none;}
@@ -93,6 +99,7 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   .content > .btn {padding-top: 0;}
   button.black {display: flex; justify-content: center; align-items: center;}
   .black {margin: 50px 0; }
+  .btn {padding-bottom: 50px;}
   #company {font-size: 25px;}
   .alert {padding: 50px 0;}
   .alert-box > ul > li {font-size: 14px;}

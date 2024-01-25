@@ -22,7 +22,7 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 .support .sup-box li {width: 79.2%; height: 300px; background: #000; margin-bottom: 160px; border-radius: 20px; color: #fff; display: flex; flex-direction: column; justify-content: center; padding: 80px;}
 .support .sup-box li > p {font-size: 40px; font-weight: bold; padding-bottom: 40px;}
 .support .sup-box li > div {font-weight: 500; letter-spacing: 0.5px; padding-bottom: 20px;}
-.support .sup-box li > div > a {vertical-align: middle; font-weight: 300; width: 100px;}
+.support .sup-box li > div > a {vertical-align: middle; font-weight: 300; width: 100px; font-size: 20px;}
 .support .sup-box li > div > a > .bold {display: inline-block; font-weight: 500; padding-right: 20px;}
 .support .sup-box li:first-child {background: url(../../img/support/img2.png)no-repeat center/cover;}
 .support .sup-box li:last-child {background: url(../../img/support/img1.png)no-repeat center/cover; margin-bottom: 0; position: relative;}
