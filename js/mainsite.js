@@ -134,8 +134,12 @@ function resize(){
     }
     if(w_w == 1920, w_h == 945){
       $("html, body").css("transform", "translate(-50%, -50.06%)");
+      $("#area .full-inner .v-con li.cells ul .list-con").css("padding", "41px 0");
+      $("#area .full-inner .v-con li.cells ul .list-con:first-child").css("padding", "10px 0 41px");
     }else{
       $("html, body").css("transform", "translate(-50%, -50.00%)");
+      $("#area .full-inner .v-con li.cells ul .list-con").css("padding", "4% 0");
+      $("#area .full-inner .v-con li.cells ul .list-con:first-child").css("padding", "10px 0 4%");
     }
     // if(w_w % 2 == 1){
     //   $("html").css("transform", "translate(-50.05%, -50%)");
