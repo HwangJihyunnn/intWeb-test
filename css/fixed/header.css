@@ -35,10 +35,14 @@
 #header:hover .logo.light { display: none !important; }
 body.light-mode #header .logo.origin { display: none; }
 body.light-mode #header .logo.light { display: block; }
-body.light-mode #header ul.nav .main-menu a { color: #111; }
-body.light-mode #header:hover ul.nav .main-menu a { color: #fefefe; }
-body.light-mode #header .open-btn span { color: #111; }
-body.light-mode #header:hover .open-btn span { color: #fefefe; }
+body.light-mode #header ul.nav .main-menu a,
+body.mixed-mode #header ul.nav .main-menu a { color: #111; }
+body.light-mode #header:hover ul.nav .main-menu a,
+body.mixed-mode #header:hover ul.nav .main-menu a { color: #fefefe; }
+body.light-mode #header .open-btn span,
+body.mixed-mode #header .open-btn span { color: #111; }
+body.light-mode #header:hover .open-btn span,
+body.mixed-mode #header:hover .open-btn span { color: #fefefe; }
 
 /*responsive*/
 @media screen and (min-width: 1001px) and (max-width: 1520px) {

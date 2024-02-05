@@ -42,7 +42,7 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 
 .cli-small {display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; padding-bottom: 160px;}
 .cli-small > li{border-radius: 20px; background: #FEFEFE; width: 100%; height: 150px;}
-.cli-small > li > figure {width: 100%; height: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center;  filter: grayscale(100%); }
+.cli-small > li > figure {width: 100%; height: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center;}
 .cli-small > li > figure > img {max-width: 70%;}
 
 .inquiry {width: 1000px; height: 250px; background: url(../../img/partners/partner-inquiry.jpg)no-repeat center/cover; border-radius: 20px; padding: 50px;}

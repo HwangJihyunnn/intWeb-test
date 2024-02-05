@@ -20,6 +20,7 @@ $(document).on("touchend", function(e){
 
 function moving_sections(gnbindex,length){ 
   $(".quick li").removeClass("on").eq(gnbindex).addClass("on");
+  $("body").removeClass("mixed-mode");
   $("#fullpage").stop().animate({"top": -length + "px"}, change_speed, "easeInOutQuint");
   remove_hide(gnbindex+1);
   if($(".fullsections").eq(gnbindex).hasClass("light")){
@@ -29,6 +30,11 @@ function moving_sections(gnbindex,length){
   }
   if($(".fullsections").eq(gnbindex).hasClass("btn")){
     $("button").addClass("on");
+  }
+  if($(".fullsections").eq(gnbindex).hasClass("mixed-mode")){
+    $("body").addClass("mixed-mode");
+  }else{
+    $("body").removeClass("mixed-mode");
   }
 }
 
@@ -53,6 +59,8 @@ function fullset(){
   }
 
   $("#fullpage .quick ul li:first-child").addClass("on");
+  $("body").addClass("mixed-mode");
+  
 
   function moving_page(){
     clearTimeout(times);
@@ -98,6 +106,7 @@ function fullset(){
     release_times = setTimeout(function(){            
       $("body").removeClass("locked");
     }, change_speed);
+    
   }
 
   window.addEventListener("mousewheel", moving_page, {passive: false});
@@ -158,7 +167,6 @@ $(function(){
   quickClick();
   resize();
 
-  
   $("#header .open-btn, #header .open-bg").click(function(){
     if(w_w < 1000){
       resize();

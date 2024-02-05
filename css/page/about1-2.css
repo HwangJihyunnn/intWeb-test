@@ -15,8 +15,9 @@ body {font-family: "Noto Sans KR", sans-serif, 'Mulish'; overflow-x: hidden; col
 .content {width: 100%; height:100%; padding: 160px 0;}
 .content.inner, .alert-box.inner {width: 79.2%; height: 100%; margin: 0 auto;}
 .content > .int-box, .com-box {padding: 160px 0; width: 100%; height:auto;}
-.content .web-font { font-size: 40px; font-weight: 700; font-family: 'Noto Sans KR';}
-.title-font {font-size: 28px; padding-bottom: 100px;}
+.content .web-font { font-size: 40px; font-weight: 700; font-family: 'Noto Sans KR'; }
+.title-font {font-size: 28px; padding-bottom: 100px; padding-left: 20px; position: relative;}
+.title-font::before {content: ''; width: 10px; height: 27px; background: linear-gradient(180deg, #012B7F, #DBE1F0); position: absolute; top: 5px; left: 0;}
 .title-font.too {padding-bottom: 100px;}
 /* 로고 박스 */
 .logo-box {display: flex; width: 100%; height: auto; border: 1px solid #ccc; padding: 50px;}
@@ -63,6 +64,7 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   #banner > h2 {font-size: 30px;}
   .content {padding: 0 0;}
   .title-font {font-size: 20px; padding-bottom: 100px;}
+  .title-font::before {top: 0px; height: 25px;}
   .title-font.too {padding-bottom: 100px;}
   .content .web-font { font-size: 30px; padding-bottom: 0; padding-top: 100px;}
   .content > .int-box, .com-box {padding: 50px 0;}
@@ -85,6 +87,8 @@ button {float: right; margin: 50px 0; font-size: 20px; font-family: 'Noto Sans K
   .content {padding: 0 0;}
   .title-font {font-size: 16px; padding: 50px 0;}
   .content .web-font { font-size: 20px; padding-bottom: 0; padding-top: 50px;}
+  .title-font {padding-left: 20px;}
+  .title-font::before {top: 50px; height: 25px;}
   .title-font.too {padding-bottom: 50px;}
   .logo-box {display: flex; height: 100%; justify-content: center; border: 2px solid #fff; }
   .logo-box > a {display: flex; justify-content: center; align-items: center;}
